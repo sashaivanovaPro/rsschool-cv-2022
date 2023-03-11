@@ -2,14 +2,14 @@
 
 ## Contacts
 
-> Location: Bishkek, Kyrgyzstan\
-> Phone: +998 996 78 58 68\
+> Location: Bishkek, Kyrgyzstan
+> Phone: +998 996 78 58 68
 > E-mail: sashaivanova.pro@gmail.com (preferred mean of communication)\
 > GitHub: sashaivanovaPro
 
 ## About me
 
-40-years old doctor and photographer.
+Currently working as a doctor. Have 7 years of experience as a freelance photographer.
 Willing to start an IT career.
 Have chosen Front-End and ready to develop in this direction.
 
@@ -44,6 +44,11 @@ Have chosen Front-End and ready to develop in this direction.
 
 **2013-2020** Freelance photographer.\
 **2006-2022** Anesthesiologist and critical care physician.
+
+## Projects
+
+[Plants](https://rolling-scopes-school.github.io/sashaivanovapro-JSFEPRESCHOOL2022Q4/plants/)\
+[Momentum](https://rolling-scopes-school.github.io/sashaivanovapro-JSFEPRESCHOOL2022Q4/momentum/)
 
 ## Foreign languages
 
