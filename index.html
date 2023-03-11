@@ -106,15 +106,9 @@
                             <div class="code_sample">
                                 <pre class="pre">
                                     <code class="code">
-        function dataReverse(data) {
-            let newArr =[];
-            const t = data.length/8;
-            for (let i= 0; i< t; i++){
-                a = data.splice(-8);
-                newArr = newArr.concat(a);
-            }
-            return newArr;
-            }</code>
+        var countBits = function(n) {
+            return ((n).toString(2).split('')).reduce((sum, num) => sum + Number(num), 0);
+            };</code>
                                 </pre>
                             </div>
                         </section>
