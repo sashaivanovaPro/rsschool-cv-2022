@@ -1,15 +1,269 @@
-html {
+* {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
-body {
+.body {
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menu {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 20%);
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu__list--item {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.figure {
+    margin: 0px;
+    padding: 0px;
+    height: 240px;
+    background-color: hsl(0, 0%, 90%);
+    padding-top: 15px;
+}
+
+.blocks {
+    display: flex;
+}
+
+.avatar {
+    display: block;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 180px;
+    width: auto;
+    border-radius: 90px;
+}
+
+.maininfo {
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.maininfo__name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.maininfo__contacts {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    list-style-type: none;
+    line-height: 20pt;
+}
+
+.center {
+    display: flex;
+    margin: 0;
+}
+
+.aside {
+    width: 20%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sub-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    text-align: center
+}
+
+.aside__style {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    width: 85%;
+}
+
+.aside__style--ul {
+    margin-left: 0;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    width: 85%;
+}
+
+.right {
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+    margin-left: 40px;
+    margin-top: 0;
+    width: 60%;
+    border-left: 1px solid hsl(0, 0%, 80%);
+}
+
+.margin-top {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sub-header__right {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.education,
+.it,
+.work {
+    margin-left: 0;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.soft-skils {
+    margin-left: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    padding-left: 20px;
+}
+
+.it {
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.pre {
+    margin-top: 25px;
+}
+
+.code_sample {
+    margin-left: 0pt;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    display: block;
+    width: 50%;
+}
+
+.extra {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.foreign {
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 90%);
+    height: 70px;
+    margin: 0;
+    margin-top: 0px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: black;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.links__item {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: black;
+    padding-top: 25px;
+}
+
+.wrap__git {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+
+.git {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.logo {
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+    margin-right: 20px;
 }
