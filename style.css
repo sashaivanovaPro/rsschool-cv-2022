@@ -202,6 +202,29 @@ a {
   margin-left: 2rem;
 }
 
+/* Projects style  */
+
+.projects__description{
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  margin: 0;
+}
+
+.projects__list--item{
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+.projects__list--item-link{
+  min-width: 10rem;
+  border-bottom: 0;
+}
+
+.projects__list--item-link:hover{
+  font-weight: bold;
+}
+
 /* Footer styles*/
 
 .footer{
