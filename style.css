@@ -92,6 +92,7 @@ a {
 
 .menu {
   width: 100%;
+  position: relative;
 }
 
 .main .wrapper::before {
@@ -121,6 +122,10 @@ a {
 
 .menu__list--item:hover {
   font-weight: 600;
+}
+
+.bugger{
+  display: none;
 }
 
 /* Main sections  */
@@ -182,6 +187,10 @@ a {
 }
 
 /* Name block styles */
+
+.maininfo__mobile{
+  display: none;
+}
 
 .maininfo__name {
   font-family: "Montserrat", sans-serif;
@@ -321,4 +330,80 @@ a {
   .footer__links--copyright {
     font-size: 1.2rem;
   }
+}
+
+@media screen and (max-width: 425.98px){
+
+  .main .wrapper::before{
+    display: none;
+  }
+
+  .header{
+    display: none;
+  }
+
+  .flexbox{
+    display: block;
+    width: 100%;
+  }
+
+  .section{
+    margin-top: 1rem;
+  }
+
+  .left-side{
+    width: 100%;
+    max-width:100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .burger{
+    display: block;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+  }
+
+  .burger__line {
+    content: "";
+    background-color: black;
+    display: block;
+    height: 2px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+
+  .avatar__image{
+    height: 15rem;
+    margin: 0;
+  }
+
+  .vacancy{
+    margin: 0;
+  }
+  
+  .contacts{
+    max-width: 100%;
+  }
+
+  .maininfo__mobile{
+    display: initial;
+  }
+
+  .maininfo__desktop{
+    display: none;
+  }
+
+  .projects__list--item{
+    display: block;
+  }
+
+  .projects__list--item-link{
+    font-weight: bold;
+  }
+
 }
